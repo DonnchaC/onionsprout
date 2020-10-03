@@ -12,7 +12,7 @@ connections to your web server over a Tor onion service. Your onion service will
 The tool can install by cloning the repo and building the go package.
 
 ```
-git get github.com/DonnchaC/onionsprout
+go get github.com/DonnchaC/onionsprout
 ```
 
 To run you will need to have Tor running on the computer where you will host your server. OnionSprout will automatically provison a Tor onion server.
